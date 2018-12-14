@@ -1,1 +1,9 @@
-language: cpp 
+language: cpp
+
+# Compiler selection
+compiler:
+  - g++
+
+# Build steps
+script: 
+  - make && ./hello
